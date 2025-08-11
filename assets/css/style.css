@@ -47,8 +47,13 @@ a {
   padding: 36px 0 8px;
 }
 
-.body img {
+.ie-logo {
   height: 4rem;
+}
+
+.rg-logo {
+  height: 3.29rem;
+  margin-right: 20px;
 }
 
 .nav ul {
@@ -116,12 +121,6 @@ a {
   width: 60%;
 }
 
-.hero-summary .item {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  margin-right: 20px;
-}
 .hero .cta-group {
   display: flex;
 }
@@ -133,12 +132,12 @@ a {
 }
 
 .hero .icon {
-  width: 48px;
-  height: 48px;
+  width: 5rem;
+  height: 5rem;
   display: flex;
   justify-items: center;
   align-items: center;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .hero-summary {
@@ -147,18 +146,24 @@ a {
   align-items: center;
   margin-top: 20px;
 }
-
+.hero-summary .item {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-right: 20px;
+  height: 5rem;
+}
 .hero .item .label .value {
   color: #5f5b53;
   font-size: 1.4rem;
-  line-height: 1.86;
+  margin-top: 30px;
 }
 
 .hero .item .label .title {
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 1.67;
+  margin-bottom: 30px;
 }
 
 .hero .heading {
@@ -181,4 +186,11 @@ a {
 
 .hero .desc {
   margin-bottom: 50px;
+}
+
+.hero .cta-group {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 10px 30px;
 }
