@@ -29,13 +29,10 @@ a {
   min-width: 118px;
   padding: 0px 16px;
   color: #fff;
-<<<<<<< HEAD
   background-color: var(--primary-color);
   border-radius: 24.5px;
-=======
   background-color: #171100;
   border-radius: 999px;
->>>>>>> 708e378295a997777c7cb9362511afbed2f66871
   line-height: 50px;
 }
 
@@ -177,14 +174,11 @@ a {
 
 .hero .cta-group {
   display: flex;
-<<<<<<< HEAD
   gap: 50px;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
-=======
   justify-content: center;
->>>>>>> 708e378295a997777c7cb9362511afbed2f66871
 }
 
 .hero .cta-group .btn {
@@ -215,13 +209,11 @@ a {
 
 .content-block__contact:hover {
   opacity: 0.8;
-=======
   justify-items: center;
   background: transparent;
   border: none;
   margin-left: 20px;
   cursor: pointer;
->>>>>>> 708e378295a997777c7cb9362511afbed2f66871
 }
 
 .hero .watch-video img {
@@ -245,13 +237,10 @@ a {
 
 .hero-summary {
   display: flex;
-<<<<<<< HEAD
   justify-content: space-between;
   align-items: center;
-=======
   justify-content: center;
   align-content: center;
->>>>>>> 708e378295a997777c7cb9362511afbed2f66871
   margin-top: 20px;
   margin-bottom: 40px;
 }
